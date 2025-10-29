@@ -11,11 +11,11 @@ import os
 
 # Page setup 
 st.set_page_config(
-    page_title="MailMind — Email Prioritization Model",
+    page_title="SignalBox — Email Prioritization Model",
     page_icon="📬",
     layout="wide"
 )
-st.title("MailMind — Email Prioritization Model")
+st.title("SignalBox — Email Prioritization Model")
 st.markdown("### Semantic model that classifies emails into: **Prioritize**, **Default**, and **Slow**")
 
 
@@ -55,7 +55,7 @@ reasoning_terms = {
 # Sidebar: full narrative + metrics 
 st.sidebar.title("Project Overview")
 st.sidebar.markdown("""
-**MailMind** is an intelligent email prioritization model that classifies messages
+**SignalBox** is an intelligent email prioritization model that classifies messages
 into **three urgency tiers**:
 - **Prioritize** — security alerts, MFA codes, transactional events  
 - **Default** — general communication, coordination  
@@ -87,7 +87,7 @@ if os.path.exists(cluster_img_path):
 st.sidebar.markdown("---")
 st.sidebar.subheader("Final Model Design")
 st.sidebar.markdown("""
-MailMind leverages **SentenceTransformer embeddings** (`all-MiniLM-L6-v2`) for contextual encoding
+SignalBox leverages **SentenceTransformer embeddings** (`all-MiniLM-L6-v2`) for contextual encoding
 and a **Logistic Regression classifier** for interpretability and efficiency.
 A lightweight **rejection mechanism** handles low-confidence predictions by returning **'Unknown'**.
 """)
@@ -162,7 +162,7 @@ except Exception as e:
 st.sidebar.markdown("---")
 st.sidebar.subheader("Areas for Future Improvement")
 st.sidebar.markdown("""
-While MailMind performs well on known message types, it currently assumes
+While SignalBox performs well on known message types, it currently assumes
 **every email fits one of three classes**.  
 Planned improvements:
 - Add **embedding-distance thresholding** for better novelty detection  

@@ -1,6 +1,6 @@
-# MailMind — Email Prioritization Model
+# SignalBox — Email Prioritization Model
 
-**MailMind** is an intelligent email classification system that prioritizes messages based on semantic urgency. It assigns each email to one of three categories:
+**SignalBox** is an intelligent email classification system that prioritizes messages based on semantic urgency. It assigns each email to one of three categories:
 
 - **Prioritize:** Critical messages such as MFA codes, account alerts, or security notifications  
 - **Default:** Standard communication or routine coordination  
@@ -23,7 +23,7 @@ The goal of this project is to model *urgency perception* in email text through 
 
 ## Technical Overview
 
-MailMind’s architecture combines sentence-level embeddings with a lightweight linear classifier.
+SignalBox's architecture combines sentence-level embeddings with a lightweight linear classifier.
 
 1. Emails are preprocessed and encoded using semantic embeddings.  
 2. A logistic regression model predicts the urgency class based on vectorized representations.  
