@@ -1,4 +1,5 @@
 
+#source .venv/bin/activate
 import streamlit as st
 import joblib
 import numpy as np
