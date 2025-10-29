@@ -1,0 +1,44 @@
+# --- Core Python junk ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Cache + transformer downloads ---
+.sentence-transformers/
+transformers_cache/
+.huggingface/
+.torch/
+cache/
+~/.cache/
+~/.torch/
+~/.huggingface/
+
+# --- Model and embeddings ---
+*.npy
+*.pt
+*.bin
+*.pkl
+*.h5
+*.onnx
+checkpoints/
+artifacts/
+tmp/
+logs/
+
+# --- Jupyter + temp files ---
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_old
+*.ipynb_tmp
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db

@@ -1,7 +1,5 @@
 
-# ======================================================
-# 🚀 Reload Email Priority Classifier (with reasoning)
-# ======================================================
+# Reload Email Priority Classifier (with reasoning)
 
 import joblib
 from sentence_transformers import SentenceTransformer
