@@ -221,6 +221,6 @@ st.caption("Built by Sarah Solieman • Semantic ML for Email •")
 
 st.markdown(
     "[View on GitHub](https://github.com/sarahsolieman/SignalBox)",
-    unsafe_allow_html=True
+    unsafe_allow_html=True 
 )
 
